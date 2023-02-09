@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network2" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="dhf_dx">
+			<state id="x" />
+			<state id="x2" />
+			<probabilities>0.5022029778182923 0.4977970221817077</probabilities>
+		</cpt>
+		<cpt id="d01_sex">
+			<state id="x" />
+			<state id="x2" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.4983361064891847 0.5016638935108153 0.5689760415077064 0.4310239584922936</probabilities>
+		</cpt>
+		<cpt id="d03_dbp">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.01611791794820081 0.01490781357669877 0.2499705877409704 0.04969831425738247 0.02791643557034571 0.5370678498798298 0.08872418023832332 0.004924452511806921 0.01067244827644162 0.009546094240127506 0.01687098360377774 0.223188700679926 0.03915085541821387 0.01778659477423402 0.5485358699153907 0.1185038235244248 0.008935686793156653 0.0174813910507486</probabilities>
+		</cpt>
+		<cpt id="d03_pulse_rate_max">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.004621926418931411 0.2605590009916133 0.01067244827644162 0.03094169649910082 0.001294139397300795 0.004319400326055899 0.01430276139094775 0.01551286576244979 0.6577757609371585 0.006494057005273241 0.2607287586686335 0.01687098360377774 0.03426759584244705 0.009851297963612933 0.01015650168709836 0.02297505807348627 0.0187022059446903 0.6199535412109805</probabilities>
+		</cpt>
+		<cpt id="d03_pulse_rate_min">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.01188255264794366 0.007344661254811005 0.008252239533437537 0.02428612245583959 0.02489117464159061 0.05181599690751105 0.3128960150590767 0.2717524664280072 0.2868787710717827 0.02175424317954457 0.008020075622700375 0.01961781711514658 0.02602709530834054 0.0382352442477576 0.0739440798955525 0.3220747070892043 0.2265459416382658 0.2637807959034878</probabilities>
+		</cpt>
+		<cpt id="d03_pulse_rate_range">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.04546294895712532 0.07874081917343147 0.1646582295500765 0.2932318190221684 0.1465066639775458 0.01430276139094775 0.04032000537824165 0.004016874233180389 0.2127598783172826 0.04342370754700985 0.08859385862285298 0.1520762331078217 0.3141394102785832 0.1163673974600268 0.02358546552045713 0.06265154212659171 0.01046170541058379 0.1887006799260729</probabilities>
+		</cpt>
+		<cpt id="d03_temp_avg">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.009462343904939578 0.03971495319249062 0.2859711927931561 0.3836871207919461 0.1788769559152255 0.01732802231970285 0.005832030790433452 0.05544631002201716 0.02368107027008857 0.0129033351984672 0.0290791325431948 0.3229903182596605 0.2958271868694576 0.1865642538616749 0.03243637350153449 0.01198772402801092 0.06539837563796055 0.04281330010003899</probabilities>
+		</cpt>
+		<cpt id="d03_temp_max">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.009462343904939578 0.06028672750802534 0.2418023832333316 0.09507722818870903 0.2157851392460377 0.2160876653389132 0.1483218205347989 0.009462343904939578 0.003714348140304879 0.01259813147498177 0.04800176339929124 0.2802617969717008 0.09195109958119266 0.1545178628957051 0.1981619953541211 0.1963307730132085 0.009851297963612933 0.0083252793461858</probabilities>
+		</cpt>
+		<cpt id="d03_temp_min">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.4556883308963176 0.2375670179330745 0.04032000537824165 0.02428612245583959 0.07874081917343147 0.09870754130321517 0.008857291719188557 0.04576547505000083 0.0100673960906906 0.4569747528697627 0.1999932176950336 0.02755311392576767 0.03091035488410736 0.07180765383115451 0.123692286823677 0.00924089051664208 0.07058683893721281 0.00924089051664208</probabilities>
+		</cpt>
+		<cpt id="d04_ab_circum">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.03003411822047429 0.05544631002201716 0.1985411519521336 0.3029126539941848 0.03759727054236205 0.03063917040622531 0.07601808433755187 0.1171616329686213 0.1516496075564295 0.01809179849771945 0.02389066924394255 0.1310171761873273 0.3062041134679621 0.03976126286518473 0.03640402190684504 0.1084321006494057 0.1731352900283162 0.1630635671532971</probabilities>
+		</cpt>
+		<cpt id="d04_abdominal">
+			<state id="x" />
+			<state id="x2" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.8432158523672667 0.1567841476327333 0.6052952846024722 0.3947047153975278</probabilities>
+		</cpt>
+		<cpt id="d04_dyspnea">
+			<state id="x" />
+			<state id="x2" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.9965965814551505 0.003403418544849493 0.9397985655424996 0.06020143445750038</probabilities>
+		</cpt>
+		<cpt id="d04_liver_size">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.5077228188709053 0.1670784382930806 0.1577001294139397 0.01369770920519672 0.1099010067396091 0.02942906603472327 0.01036992218356611 0.0009916133044252844 0.003109295954553858 0.3657188395476202 0.07699611713040676 0.1181986198009393 0.02755311392576767 0.1816809942859081 0.1319327873577835 0.06936602404327109 0.02053342828560286 0.008020075622700374</probabilities>
+		</cpt>
+		<cpt id="d04_weight">
+			<state id="x" />
+			<state id="x2" />
+			<state id="x3" />
+			<state id="x4" />
+			<state id="x5" />
+			<state id="x6" />
+			<state id="x7" />
+			<state id="x8" />
+			<state id="x9" />
+			<parents>dhf_dx</parents>
+			<probabilities>0.03547958789223348 0.01853812669120489 0.02912653994184776 0.06421956671540698 0.1050605892536009 0.3122909628733256 0.4205953041227584 0.01248760483369468 0.002201717675927326 0.02389066924394255 0.02144903945605914 0.01259813147498177 0.03518320701290333 0.11148413788426 0.2436373501534497 0.535106906082032 0.008020075622700375 0.008630483069671228</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 3.0.6518.0 ACADEMIC" name="DHF">
+			<node id="d01_sex">
+				<name>d01_sex</name>
+				<interior color="c46210" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>1321 486 1361 511</position>
+				<barchart active="true" width="100" height="120" />
+			</node>
+			<node id="d03_dbp">
+				<name>d03_dbp</name>
+				<interior color="e6ffe6" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>92 204 132 229</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_pulse_rate_max">
+				<name>d03_pulse_rate_max</name>
+				<interior color="3b7a57" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>171 387 211 412</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_pulse_rate_min">
+				<name>d03_pulse_rate_min</name>
+				<interior color="c46210" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>296 438 336 463</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_pulse_rate_range">
+				<name>d03_pulse_rate_range</name>
+				<interior color="0048ba" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>399 470 439 495</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_temp_avg">
+				<name>d03_temp_avg</name>
+				<interior color="3b7a57" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>573 524 613 549</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_temp_max">
+				<name>d03_temp_max</name>
+				<interior color="ffbf00" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>703 531 743 556</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d03_temp_min">
+				<name>d03_temp_min</name>
+				<interior color="c46210" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>809 519 849 544</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d04_ab_circum">
+				<name>d04_ab_circum</name>
+				<interior color="e6ffe6" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>935 543 975 568</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d04_abdominal">
+				<name>d04_abdominal</name>
+				<interior color="3b7a57" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>1297 79 1337 104</position>
+				<barchart active="true" width="100" height="120" />
+			</node>
+			<node id="d04_dyspnea">
+				<name>d04_dyspnea</name>
+				<interior color="ffbf00" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>1213 576 1253 601</position>
+				<barchart active="true" width="100" height="120" />
+			</node>
+			<node id="d04_liver_size">
+				<name>d04_liver_size</name>
+				<interior color="3b7a57" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>1084 600 1124 625</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="d04_weight">
+				<name>d04_weight</name>
+				<interior color="c0e8d5" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>1288 268 1328 293</position>
+				<barchart active="true" width="100" height="260" />
+			</node>
+			<node id="dhf_dx">
+				<name>dhf_dx</name>
+				<interior color="3b7a57" />
+				<outline color="000000" width="3" />
+				<font color="000000" name="Arial" size="14" />
+				<position>818 74 858 99</position>
+				<barchart active="true" width="100" height="120" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
